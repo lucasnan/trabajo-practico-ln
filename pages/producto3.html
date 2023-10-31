@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/producto-seleccionado.css" />
+    <script type="text/javascript" src="../js/search.js"></script>
+    <title>book shop</title>
+</head>
+
+<body class="bodyflex">
+    <header>
+        <h1>Book shop</h1>
+    </header>
+    <div class="searchbar">
+        <div class="search-with-carrito">
+            <button onclick="miCarrito()">
+                <span class="material-symbols-outlined">
+                  shopping_cart
+                </span>
+              </button>
+                  <input type="search" id="busqueda" name="busqueda" placeholder="Buscar" />
+                  <input type="button" value="Buscar" onclick="searchLibro(event)" />
+        </div>
+    </div>
+    <nav class="navbar">
+        <ul class="navbar-ul">
+            <li class="navbar-li">
+                <a class="navbar-li-link" href="../index.html">
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                    inicio</a>
+            </li>
+            <!-- 
+            <li class="navbar-li">
+                <a class="navbar-li-link" href="">
+                    <span class="material-symbols-outlined">
+                        list
+                    </span>
+                    Categorias</a>
+            </li>
+            <li class="navbar-li"><a class="navbar-li-link" href="#">
+                    <span class="material-symbols-outlined">
+                        list
+                    </span>
+                    A-Z</a></li>-->
+            <li class="navbar-li"><a class="navbar-li-link" href="./contacto.html">
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>
+                    Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <div class="producto" >
+        <!-- imagen-->
+        <div class="imagediv" >
+            <img class="img-tamaño" src="../img/imgmock/elantris.webp" alt="">
+        </div>
+        <!-- detalle-->
+        <div class="descripciondiv" >
+            <div class="descripcion-content" >
+                <h2 class="title-producto">Elantris - Brandon Sanderson</h2>
+                <h2 class="title-producto">$17.999</h2>
+                <Button class="button-carrito"> <span class="button-carrito-span"> agregar al carrito </span></Button>
+                <h4>descripcion:</h4>
+                <p>Una novela imprescindible para los amantes de la fantasía épica. Por el consagrado autor del género Brandon Sanderson.</p>
+                <p>«La más bella novela de fantasía que se escribirá en muchos años.»
+                    Orson Scott Card, autor de El juego de Ender</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Book-shop</p>
+    </footer>
+</body>
+
+</html>

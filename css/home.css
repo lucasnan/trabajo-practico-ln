@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=Roboto+Slab:wght@500&family=Roboto:wght@700&display=swap');
+
+.bodyflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 98vh;
+}
+
+.title-web{
+    font-family: "Chelsea Market";
+}
+
+.home-title{
+    font-family: 'Roboto Slab', serif;
+}
+
+.searchbar{
+    display: flex;
+    width: 90%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.search-with-carrito{
+    display: flex;
+    /* width: 100%; */
+    justify-content: flex-end;
+}
+
+.navbar{
+    display: grid;
+    width: 40%;
+    justify-content: center;
+    justify-items: center;
+    border: 2px solid #000;
+}
+
+.navbar-ul{
+    display: flex;
+}
+
+.navbar-li{
+    display: inline;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: 0 1em 0 1em;
+   /*border: 2px solid #000;
+    border-radius:14px; */
+}
+
+.navbar-li-link{
+    color: #000;
+    text-decoration:none;
+    display: flex;
+    align-items: center;
+}
+.novedades-col{
+    display: flex; 
+}
+
+.card-home{
+    border: 2px solid #000;
+    border-radius:14px;
+    width: 300px;
+  /**height: 360px;*/  
+    margin: 5px;
+}
+.card-content{
+    margin: 6px;
+}
+
+.card-image{
+    margin: 3px;
+    /* width: 295px; */ 
+    width: 17.4em !important;
+   /* border: 2px solid #B62063 ; */
+    border-radius: 6px;
+}
+

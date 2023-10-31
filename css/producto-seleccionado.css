@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=Roboto+Slab:wght@500&family=Roboto:wght@700&display=swap');
+.producto{
+    display: flex;
+}
+
+.imagediv{
+   
+    width: 600px;
+}
+
+.img-tamaño{
+    margin: 1em;
+    width: 350px;
+}
+
+.title-producto{
+    font-family: "Roboto" ;
+}
+
+.descripciondiv{
+    /**border: 2px solid #000; */
+    
+    width: 600px;
+}
+
+.descripcion-content{
+    margin: 5px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.button-carrito{
+
+    border: 2px solid #000;
+    border-radius:14px;
+    background-color: 0057D9 ;
+    font-size: 2em;
+    color: white;
+}

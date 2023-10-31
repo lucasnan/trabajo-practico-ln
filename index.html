@@ -1,0 +1,123 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" />
+  <!-- https://material.io/resources/icons/?style=baseline -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+  <!-- https://material.io/resources/icons/?style=outline -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet" />
+  <!-- https://material.io/resources/icons/?style=round -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet" />
+  <!-- https://material.io/resources/icons/?style=sharp -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet" />
+  <!-- https://material.io/resources/icons/?style=twotone -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/home.css" />
+
+  <script type="text/javascript" src="./js/search.js"></script>
+  <title>book shop</title>
+</head>
+
+<body class="bodyflex">
+  <!--script type="text/javascript" src="./js/search.js"></!--script -->
+  <header>
+    <h1 class="title-web">Book shop</h1>
+  </header>
+  <div class="searchbar">
+
+    <div class="search-with-carrito">
+      <button onclick="miCarrito()">
+        <span class="material-symbols-outlined">
+          shopping_cart
+        </span>
+      </button>
+      <input type="search" id="busqueda" name="busqueda" placeholder="Buscar" />
+      <input type="button" value="Buscar" onclick="searchLibro(event)" />
+
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <ul class="navbar-ul">
+      <li class="navbar-li">
+        <a class="navbar-li-link" href="../index.html">
+          <span class="material-symbols-outlined">
+            home
+          </span>
+          inicio</a>
+      </li>
+      <!--<li class="navbar-li"><a class="navbar-li-link" href="#">
+          <span class="material-symbols-outlined">
+            list
+          </span>
+          Categorias</a></li>
+      <li class="navbar-li"><a class="navbar-li-link" href="#">
+          <span class="material-symbols-outlined">
+            list
+          </span>
+          A-Z</a></li> -->
+      <li class="navbar-li"><a class="navbar-li-link" href="./pages/contacto.html">
+          <span class="material-symbols-outlined">
+            mail
+          </span>
+          Contacto</a></li>
+    </ul>
+  </nav>
+  <!-- componentes de las tarjetas -->
+  <h2 class="home-title">Novedades!!!</h2>
+
+  <div class="novedades-col">
+    <div class="card-home">
+      <div class="card-content">
+        <img src="img/imgmock/nacidos3.webp" alt="" class="card-image" />
+        <h3>Nacidos De La Bruma 3 - El Heroe De Las Eras - Sanderson</h3>
+        <p>autor:Brandon Sanderson</p>
+        <p>Año de publicación: 2019</p>
+        <p>precio:$17.999</p>
+        <a href="pages/producto2.html"> ir al libro</a>
+      </div>
+    </div>
+    <div class="card-home">
+      <div class="card-content">
+        <img src="img/imgmock/nacidos4.jpg" alt="" class="card-image" />
+        <h3>Nacidos De La Bruma Mistborn 4 - Aleacion De Ley - Sanderson</h3>
+        <p>autor:Brandon Sanderson</p>
+        <p>Año de publicación: 2021</p>
+        <p>precio:$17.999</p>
+        <a href="pages\producto1.html"> ir al libro</a>
+      </div>
+    </div>
+    <div class="card-home">
+      <div class="card-content">
+        <img src="img/imgmock/elantris.webp" alt="" class="card-image" />
+        <h3>Elantris - Brandon Sanderson</h3>
+        <p>autor:Brandon Sanderson</p>
+        <p>Año de publicación: 2022</p>
+        <p>precio:17.999</p>
+        <a href="pages/producto3.html"> ir al libro</a>
+      </div>
+    </div>
+    <div class="card-home">
+      <div class="card-content">
+        <img src="img/imgmock/nacidos1.webp" alt="" class="card-image" />
+        <h3>Imperio Final - Nacidos De La Bruma 1 - Brandon Sanderson</h3>
+        <p>autor:Brandon Sanderson</p>
+        <p>Año de publicación: 2019</p>
+        <p>precio:17.999</p>
+        <a href="pages/producto4.html"> ir al libro</a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Book-shop</p>
+  </footer>
+</body>
+
+</html>

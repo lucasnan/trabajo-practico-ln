@@ -1,0 +1,22 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=Roboto+Slab:wght@500&family=Roboto:wght@700&display=swap');
+
+.contacto-title{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-correo{
+    margin-bottom: 2em;
+}
+
+
+.contacto-button-div{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2em;
+}
+
+.contacto-label{
+    font-family: 'Nunito Sans', sans-serif;
+}

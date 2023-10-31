@@ -1,0 +1,84 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/producto-seleccionado.css" />
+    <script type="text/javascript" src="../js/search.js"></script>
+    <script type="text/javascript" src="../js/busqueda.js"></script>
+    <title>book shop</title>
+</head>
+
+<body class="bodyflex">
+    <header>
+        <h1 class="title-web">Book shop</h1>
+    </header>
+    <div class="searchbar">
+        <div class="search-with-carrito">
+            <button onclick="miCarrito()">
+                <span class="material-symbols-outlined">
+                  shopping_cart
+                </span>
+              </button>
+                  <input type="search" id="busqueda" name="busqueda" placeholder="Buscar" />
+                  <input type="button" value="Buscar" onclick="searchLibro(event)" />
+           
+        </div>
+    </div>
+    <nav class="navbar">
+        <ul class="navbar-ul">
+            <li class="navbar-li">
+                <a class="navbar-li-link" href="../index.html">
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                    inicio</a>
+            </li>
+            <!--
+            <li class="navbar-li">
+                <a class="navbar-li-link" href="">
+                    <span class="material-symbols-outlined">
+                        list
+                    </span>
+                    Categorias</a>
+            </li>
+            <li class="navbar-li"><a class="navbar-li-link" href="#">
+                    <span class="material-symbols-outlined">
+                        list
+                    </span>
+                    A-Z</a></li>
+               -->     
+            <li class="navbar-li"><a class="navbar-li-link" href="./contacto.html">
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>
+                    Contacto</a></li>
+        </ul>
+    </nav>
+    <h2 class="home-title">Busqueda</h2>
+    <div class="busqueda-col"> 
+        <div id="resultado" >
+            
+        </div>
+    </div>
+
+    <footer>
+        <p>Book-shop</p>
+    </footer>
+</body>
+
+</html>

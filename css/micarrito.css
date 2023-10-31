@@ -1,0 +1,16 @@
+
+.carrito-producto{
+    border: 2px solid #696969;
+    width: 766px;
+    height: 200px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carrito-img{
+    width: 110px;
+    margin: 1em;
+}
+

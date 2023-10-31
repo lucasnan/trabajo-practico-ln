@@ -1,0 +1,114 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/producto-seleccionado.css" />
+    <script type="text/javascript" src="../js/search.js"></script>
+    <title>book shop</title>
+</head>
+
+<body class="bodyflex">
+    <header>
+        <h1 class="title-web">Book shop</h1>
+    </header>
+    <div class="searchbar">
+        <div class="search-with-carrito">
+            <button onclick="miCarrito()">
+                <span class="material-symbols-outlined">
+                  shopping_cart
+                </span>
+              </button>
+                  <input type="search" id="busqueda" name="busqueda" placeholder="Buscar" />
+                  <input type="button" value="Buscar" onclick="searchLibro(event)" />
+        </div>
+    </div>
+    <nav class="navbar">
+        <ul class="navbar-ul">
+            <li class="navbar-li">
+                <a class="navbar-li-link" href="../index.html">
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                    inicio</a>
+            </li>
+            <!-- 
+            <li class="navbar-li">
+                <a class="navbar-li-link" href="#">
+                    <span class="material-symbols-outlined">
+                        list
+                    </span>
+                    Categorias</a>
+            </li>
+            <li class="navbar-li"><a class="navbar-li-link" href="#">
+                    <span class="material-symbols-outlined">
+                        list
+                    </span>
+                    A-Z</a></li>-->
+            <li class="navbar-li"><a class="navbar-li-link" href="#">
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>
+                    Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="producto">
+        <!-- imagen-->
+        <div class="imagediv">
+            <img class="img-tamaño" src="../img/imgmock/nacidos4.jpg" alt="">
+        </div>
+        <!-- detalle-->
+        <div class="descripciondiv">
+            <div class="descripcion-content">
+                <h2 class="title-producto">Nacidos De La Bruma Mistborn 4 - Aleacion De Ley - Sanderson</h2>
+                <h2 class="title-producto">$17.999</h2>
+                <Button class="button-carrito">
+                    <span class="button-carrito-span"> agregar al carrito </span>
+                </Button>
+                <h4>descripcion:</h4>
+
+                <p>Han pasado trescientos años desde los acontecimientos narrados en la primera trilogía de la saga,
+                    y Scadrial se encuentra ahora cerca de la modernidad: ferrocarriles, canales,
+                    iluminación eléctrica y los primeros rascacielos invaden el planeta.
+                    Aunque la ciencia y la tecnología están alcanzando nuevos retos, la antigua magia de la alomancia
+                    continúa desempeñando un papel fundamental. En una zona conocida como los Áridos, existen
+                    herramientas cruciales para aquellos hombres y mujeres que intentan establecer el orden y la
+                    justicia.
+                    Uno de estos hombres es Lord Waxillium Ladrian, experto en metales y en el uso de la alomancia y la
+                    feruquimia. Después de vivir veinte años en los Áridos, Wax se ha visto obligado, por una tragedia
+                    familiar, a volver a la metrópolis de Elendel. Sin embargo, y a su pesar, deberá guardar las armas y
+                    asumir las obligaciones que exige el hecho de estar rodeado de la clase noble. O al menos eso cree,
+                    ya que aún no sabe que las mansiones y las elegantes calles arboladas de la ciudad pueden ser
+                    incluso más peligrosas que las llanuras de los Aridos.
+                    Un skyline metálico de bruma, de ceniza y vapor conquista el cielo amenazando a todos aquellos que
+                    viven y luchan debajo de él. Desde 2006, y en solo diez años, Brandon Sanderson se ha consolidado
+                    como el gran renovador de la fantasía del siglo XXI y el autor del género más prolífico del mundo.
+                    Ha logrado ganarse a ocho millones de lectores, ser publicado en treinta países y convertirse en el
+                    heredero de todo un género.
+                    El Periódico de Catalunya «Si te gusta la literatura fantástica, lee a Brandon Sanderson.» Chicote
+                    «Hace tiempo que George R.R. Martin tiene heredero.» Javier Blánquez, El Mundo</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Book-shop</p>
+    </footer>
+</body>
+
+</html>

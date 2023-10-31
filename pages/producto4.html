@@ -1,0 +1,103 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/producto-seleccionado.css" />
+    <script type="text/javascript" src="../js/search.js"></script>
+    <title>book shop</title>
+</head>
+
+<body class="bodyflex">
+    <header>
+        <h1 class="title-web">Book shop</h1>
+    </header>
+    <div class="searchbar">
+        <div class="search-with-carrito">
+            <button onclick="miCarrito()">
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+            </button>
+            <input type="search" id="busqueda" name="busqueda" placeholder="Buscar" />
+            <input type="button" value="Buscar" onclick="searchLibro(event)" />
+        </div>
+    </div>
+    <nav class="navbar">
+        <ul class="navbar-ul">
+            <li class="navbar-li">
+                <a class="navbar-li-link" href="../index.html">
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                    inicio</a>
+            </li>
+            <!-- 
+            <li class="navbar-li">
+                <a class="navbar-li-link" href="#">
+                    <span class="material-symbols-outlined">
+                        list
+                    </span>
+                    Categorias</a>
+            </li>
+            <li class="navbar-li"><a class="navbar-li-link" href="#">
+                    <span class="material-symbols-outlined">
+                        list
+                    </span>
+                    A-Z</a></li>-->
+            <li class="navbar-li"><a class="navbar-li-link" href="#">
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>
+                    Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="producto">
+        <!-- imagen-->
+        <div class="imagediv">
+            <img class="img-tamaño" src="../img/imgmock/nacidos1.webp" alt="">
+        </div>
+        <!-- detalle-->
+        <div class="descripciondiv">
+            <div class="descripcion-content">
+                <h2 class="title-producto">Imperio Final - Nacidos De La Bruma 1 - Brandon Sanderson</h2>
+                <h2 class="title-producto">$17.999</h2>
+                <Button class="button-carrito">
+                    <span class="button-carrito-span"> agregar al carrito </span>
+                </Button>
+                <h4>descripcion:</h4>
+
+                <p>Durante mil años han caído las cenizas y nada florece. Durante mil años los skaa han sido
+                    esclavizados y viven sumidos en un miedo inevitable. Durante mil años el Lord Legislador reina con
+                    un poder absoluto gracias al terror, a sus poderes e inmortalidad. Le ayudan «obligadores» e
+                    «inquisidores», junto a la poderosa magia de la «alomancia». Pero los nobles a menudo han tenido
+                    trato sexual con jóvenes skaa y, aunque la ley lo prohíbe, algunos de sus bastardos han sobrevivido
+                    y heredado los poderes alománticos: son los «nacidos de la bruma» (mistborns). Ahora, Kelsier, el
+                    «superviviente», el único que ha logrado huir de los Pozos de Hathsin, ha encontrado a Vin, una
+                    pobre chica skaa con mucha suerte... Tal vez los dos, unidos a la rebelión que los skaa intentan
+                    desde hace mil años, logren cambiar el mundo y la atroz dominación del Lord Legislador.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Book-shop</p>
+    </footer>
+</body>
+
+</html>

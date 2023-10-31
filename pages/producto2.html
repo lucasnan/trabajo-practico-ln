@@ -1,0 +1,99 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/producto-seleccionado.css" />
+    <script type="text/javascript" src="../js/search.js"></script>
+    <title>book shop</title>
+</head>
+
+<body class="bodyflex">
+    <header>
+        <h1>Book shop</h1>
+    </header>
+    <div class="searchbar">
+        <div class="search-with-carrito">
+            <button onclick="miCarrito()">
+                <span class="material-symbols-outlined">
+                  shopping_cart
+                </span>
+              </button>
+                  <input type="search" id="busqueda" name="busqueda" placeholder="Buscar" />
+                  <input type="button" value="Buscar" onclick="searchLibro(event)" />
+        </div>
+    </div>
+    <nav class="navbar">
+        <ul class="navbar-ul">
+            <li class="navbar-li">
+                <a class="navbar-li-link" href="../index.html">
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                    inicio</a>
+            </li>
+            <!--
+            <li class="navbar-li">
+                <a class="navbar-li-link" href="">
+                    <span class="material-symbols-outlined">
+                        list
+                    </span>
+                    Categorias</a>
+            </li>
+            <li class="navbar-li"><a class="navbar-li-link" href="#">
+                    <span class="material-symbols-outlined">
+                        list
+                    </span>
+                    A-Z</a></li>
+                    -->
+            <li class="navbar-li"><a class="navbar-li-link" href="./contacto.html">
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>
+                    Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="producto">
+        <!-- imagen-->
+        <div class="imagediv">
+            <img class="img-tamaño" src="../img/imgmock/nacidos3.webp" alt="">
+        </div>
+        <!-- detalle-->
+        <div class="descripciondiv">
+            <div class="descripcion-content">
+                <h2 class="title-producto">Nacidos De La Bruma 3 - El Heroe De Las Eras - Sanderson</h2>
+                <h2 class="title-producto">$17.999</h2>
+                <Button class="button-carrito"> <span class="button-carrito-span"> agregar al carrito </span></Button>
+                <h4>descripcion:</h4>
+                <p>Durante mil años los skaa han vivido esclavizados y sumidos en el miedo al Lord Legislador, que ha
+                    reinado con un poder absoluto gracias al terror y a la poderosa magia de la alomancia. Kelsier, el
+                    Superviviente, el único que ha logrado huir de los Pozos de Hathsin, encuentra a Vin, una pobre
+                    chica skaa con mucha suerte. Los dos se unen a la rebelión que los skaa intentan desde hace un
+                    milenio y vencen al Lord Legislador.
+                    Pero acabar con el Lord Legislador fue la parte sencilla. El verdadero desafío consistirá en
+                    sobrevivir a las consecuencias de su caída. En El héroe de las eras se explican el porqué de la
+                    niebla y las cenizas, las tenebrosas acciones del Lord Legislador y la naturaleza del Pozo de la
+                    Ascensión. Vin y el Rey Elend buscan en los últimos escondites del Lord Legislador y descubren el
+                    peligro que acecha a la humanidad. ¿Conseguirán detenerlo a tiempo? La crítica ha dicho...
+                    «Sanderson es un escritor brillante.» Patrick Rothfuss «Sanderson es una bomba a punto de explotar.»
+                    Ernest Alós, El Periódico de Catalunya</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Book-shop</p>
+    </footer>
+</body>
+
+</html>
