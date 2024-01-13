@@ -20,3 +20,8 @@
 .contacto-label{
     font-family: 'Nunito Sans', sans-serif;
 }
+
+.contacto-mensaje{
+    display: flex;
+    justify-content: center;
+}

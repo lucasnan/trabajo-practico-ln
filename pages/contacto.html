@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="../css/producto-seleccionado.css" />
     <link rel="stylesheet" href="../css/contacto.css" />
     <script type="text/javascript" src="../js/search.js"></script>
+    <script type="text/javascript" src="../js/contacto.js"></script>
     <title>book shop</title>
 </head>
 
@@ -69,21 +70,26 @@
         </ul>
     </nav>
 
-    <div class="contacto-content">
+    <div id="contacto-page">
         <div class="contacto-title">
             <h2 class="home-title" >Contacto!!</h2>
         </div>
+        <form id="myForm">
+
+       
         <div class="contacto-correo">
             <label for="correo-email" class="contacto-label">correo:</label>
-            <input type="text" name="correo-email" placeholder="ingrese su email">
+            <input type="text" name="email" id="email" placeholder="ingrese su email">
         </div>
         <div>
             <label for="" class="contacto-label"> Mensaje:</label> <br>
-            <textarea id="story" name="story" placeholder="ingrese su Mensaje" rows="20" cols="80"></textarea>
+            <textarea id="mensaje" name="mensaje" placeholder="ingrese su Mensaje" rows="20" cols="80"></textarea>
         </div>
         <div class="contacto-button-div">
-            <button>Enviar Correo</button>
+            <button type="button" onclick="submitForm()"> Enviar Correo</button>
         </div>
+       </form>
+       
     </div>
 
     <footer>
